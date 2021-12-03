@@ -1,9 +1,9 @@
 <?php
 
-namespace Kavalar\Captcha;
+namespace Kavalar\Captcha\Figure;
 
-//include('Interface/FigureInterface.php');
 use  Kavalar\Captcha\FigureInterface;
+use Kavalar\Captcha\FigureWraper;
 
 class Circle implements FigureInterface
 {

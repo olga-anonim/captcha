@@ -1,6 +1,9 @@
 <?php
 
-namespace Kavalar\Captcha;
+namespace Kavalar\Captcha\Figure;
+
+use Kavalar\Captcha\FigureInterface;
+use Kavalar\Captcha\FigureWraper;
 
 class Image implements FigureInterface
 {

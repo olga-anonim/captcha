@@ -2,6 +2,12 @@
 
 namespace Kavalar\Captcha;
 
+use Kavalar\Captcha\Figure\Circle;
+use Kavalar\Captcha\Figure\Image;
+use Kavalar\Captcha\Figure\Line;
+use Kavalar\Captcha\Figure\Pentagon;
+use Kavalar\Captcha\Figure\Square;
+use Kavalar\Captcha\Figure\Triangle;
 use function Composer\Autoload\includeFile;
 
 class Figure
